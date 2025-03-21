@@ -14,3 +14,9 @@ conda activate full_path_without_commas
 pip freeze > requirements.txt
 
 jupyter notebook
+
+# folder download in colab via zipping folder
+!zip -r booknlp_output.zip /content/booknlp_output
+
+from google.colab import files
+files.download('booknlp_output.zip')
