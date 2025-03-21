@@ -10,4 +10,7 @@ conda env remove --name my_env_name_only
 # Activate your environment
 conda activate full_path_without_commas
 
+# pip freeze command
+pip freeze > requirements.txt
+
 jupyter notebook
