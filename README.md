@@ -3,9 +3,9 @@ learning python with dsa
 
 conda env list
 
+(do this when you have selected the directory)
 conda env remove --name my_env_name_only
 
-# do this when you have selected the directory
 
 # Activate your environment
 conda activate full_path_without_commas
