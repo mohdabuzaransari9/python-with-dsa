@@ -1,13 +1,15 @@
 # python-with-dsa
 learning python with dsa
 
+
+# anaconda
 conda env list
 
 (do this when you have selected the directory)
 conda env remove --name my_env_name_only
 
 
-# Activate your environment
+## Activate your environment
 conda activate full_path_without_commas
 ## to get localhost link
 ### if jupyter is not installed
