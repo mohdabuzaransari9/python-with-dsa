@@ -22,8 +22,9 @@ pip freeze > requirements.txt
 pip freeze > requirements.txt
 
 jupyter notebook
+# colab essential
 
-# folder download in colab via zipping folder
+## folder download in colab via zipping folder
 !zip -r booknlp_output.zip /content/booknlp_output
 
 from google.colab import files
