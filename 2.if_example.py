@@ -1,5 +1,0 @@
-#ifexample
-name="alice"
-if name=="alice":
-    print("hi alice")
-print("done")
