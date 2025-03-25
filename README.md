@@ -69,7 +69,7 @@ git lfs track "*.csv"
 <!--Copy your CSV file into the repository folder-->
 <!--Then in terminal:-->
 
-git add .gitattributes
-git add yourfile.csv
-git commit -m "Add large CSV file"
-git push origin main
+git add .gitattributes<br>
+git add yourfile.csv<br>
+git commit -m "Add large CSV file"<br>
+git push origin main<br>
