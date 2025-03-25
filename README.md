@@ -16,11 +16,11 @@ conda env list
 
 conda remove --prefix D:\python\venv --all -y
 
-<--!--prefix (-p) specifies the environment path.-->
+**Note:**--prefix (-p) specifies the environment path.
 
-<--!--all removes all packages and the environment itself.-->
+**Note:**--all removes all packages and the environment itself.
 
-<--!-y skips confirmation.-->
+**Note:**-y skips confirmation.
 
 
 
@@ -50,24 +50,24 @@ files.download('booknlp_output.zip')
 
 # github lfs file upload way of *.csv
 
-<!-- https link of your repository -->
+**Note:**https link of your repository
 
 clone https://github.com/username/your-repository-name.git
 
-<!-- install git on your pc -->
+**Note:**install git on your pc
 
-<!--Navigate to repository folder-->
+**Note:**Navigate to repository folder
 cd your-repository-name
 
-<!--Install Git LFS-->
+vInstall Git LFS
 git lfs install
 
-<!--Track CSV files-->
+**Note:**Track CSV files
 
 git lfs track "*.csv"
 
-<!--Copy your CSV file into the repository folder-->
-<!--Then in terminal:-->
+**Note:**Copy your CSV file into the repository folder
+**Note:**Then in terminal:
 
 git add .gitattributes<br>
 git add yourfile.csv<br>
