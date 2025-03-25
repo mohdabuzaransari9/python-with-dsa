@@ -1,7 +1,6 @@
 # python-with-dsa
 learning python with dsa
 
-
 # anaconda
 ## create new venv
 conda create -p venv "python==3.10.12" -y
@@ -12,6 +11,7 @@ like this
 conda activate path\venv
 
 ## delete environment
+
 conda env list
 
 conda remove --prefix D:\python\venv --all -y
@@ -21,7 +21,6 @@ conda remove --prefix D:\python\venv --all -y
 **Note:**--all removes all packages and the environment itself.
 
 **Note:**-y skips confirmation.
-
 
 
 ## to get localhost link
@@ -50,24 +49,24 @@ files.download('booknlp_output.zip')
 
 # github lfs file upload way of *.csv
 
-**Note:**https link of your repository
+**Note:** https link of your repository
 
 clone https://github.com/username/your-repository-name.git
 
-**Note:**install git on your pc
+**Note:** install git on your pc
 
-**Note:**Navigate to repository folder
+**Note:** Navigate to repository folder
 cd your-repository-name
 
-vInstall Git LFS
+**Note:** Install Git LFS
 git lfs install
 
-**Note:**Track CSV files
+**Note:** Track CSV files
 
 git lfs track "*.csv"
 
-**Note:**Copy your CSV file into the repository folder
-**Note:**Then in terminal:
+**Note:** Copy your CSV file into the repository folder
+**Note:** Then in terminal:
 
 git add .gitattributes<br>
 git add yourfile.csv<br>
