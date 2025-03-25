@@ -23,16 +23,17 @@ conda remove --prefix D:\python\venv --all -y
 <--!-y skips confirmation.-->
 
 
-## Activate your environment
-conda activate full_path_without_commas
+
 ## to get localhost link
+
 ### if jupyter is not installed
 pip install notebook
-### then write this
+
+### then write this to open jupyter notebook and get local hostlink in cmd
 jupyter notebook
 
-# pip freeze command
-pip freeze > requirements.txt
+# pip list command to get alist of all installed packages
+pip list
 
 # pip freeze command
 pip freeze > requirements.txt
