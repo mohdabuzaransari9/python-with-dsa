@@ -38,6 +38,14 @@ pip list
 pip freeze > requirements.txt
 
 jupyter notebook
+
+# pytorch 2.1
+## gpu version
+pip install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+# CPU Only
+## cpu only
+pip install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 cpuonly -c pytorch
+
 # colab essential
 
 ## folder download in colab via zipping folder
