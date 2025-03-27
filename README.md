@@ -40,10 +40,20 @@ pip list
 pip freeze > requirements.txt
 
 jupyter notebook
+# pytorch versions
 
-# pytorch 2.1
+## latest
+
 ## gpu version
-pip install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+## cpu only
+pip3 install torch torchvision torchaudio
+
+## pytorch 2.1
+
+## gpu version
+conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 
 ## cpu only
 conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 cpuonly -c pytorch
