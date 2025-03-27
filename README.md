@@ -1,7 +1,7 @@
 # python-with-dsa
 learning python with dsa
 # upgrading pip
-**Note:** run this command in cmd
+**Note:** run this command in cmd<br>
 python.exe -m pip install --upgrade pip
 # anaconda
 ## create new venv
