@@ -1,6 +1,8 @@
 # python-with-dsa
 learning python with dsa
-
+# upgrading pip
+**Note:** run this command in cmd
+python.exe -m pip install --upgrade pip
 # anaconda
 ## create new venv
 conda create -p venv "python==3.10.12" -y
