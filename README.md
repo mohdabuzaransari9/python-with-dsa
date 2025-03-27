@@ -1,6 +1,6 @@
 # python-with-dsa
 learning python with dsa
-# upgrading pip
+## upgrading pip
 **Note:** run this command in cmd<br>
 python.exe -m pip install --upgrade pip
 # anaconda
