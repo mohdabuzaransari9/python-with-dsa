@@ -1,18 +1,19 @@
 pyperclip
+secure-smtplib
 imapclient
 pyzmail36
 pillow
 pyautogui
 ipykernel
 ipython
-numpy==2.0.2
+numpy==1.26.4
 pandas==2.2.2
 matplotlib
 seaborn
 scikit-learn
 wget
 requests==2.32.3
-spacy==3.8.4
+spacy==3.8.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 tensorflow-cpu==2.18.0
 torch
@@ -30,4 +31,3 @@ transformers==4.49.0
 huggingface_hub==0.29.3
 bitsandbytes==0.43.1
 tk
-secure-smtplib
