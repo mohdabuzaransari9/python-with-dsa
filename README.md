@@ -69,24 +69,24 @@ files.download('booknlp_output.zip')
 
 # github lfs file upload way of *.csv
 
-**Note:** https link of your repository
+**Note:** https link of your repository<br>
 
-clone https://github.com/username/your-repository-name.git
+git clone https://github.com/username/your-repository-name.git<br>
 
-**Note:** install git on your pc
+**Note:** install git on your pc<br>
 
-**Note:** Navigate to repository folder
-cd your-repository-name
+**Note:** Navigate to repository folder<br>
+cd your-repository-name<br>
 
-**Note:** Install Git LFS
-git lfs install
+**Note:** Install Git LFS<br>
+git lfs install<br>
 
-**Note:** Track CSV files
+**Note:** Track CSV files<br>
 
-git lfs track "*.csv"
+git lfs track "*.csv"<br>
 
-**Note:** Copy your CSV file into the repository folder
-**Note:** Then in terminal:
+**Note:** Copy your CSV file into the repository folder<br>
+**Note:** Then in terminal:<br>
 
 git add .gitattributes<br>
 git add yourfile.csv<br>
