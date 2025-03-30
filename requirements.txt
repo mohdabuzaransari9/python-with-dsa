@@ -1,6 +1,7 @@
 pyperclip
-pillow
 imapclient
+pyzmail36
+pillow
 pyautogui
 ipykernel
 ipython
