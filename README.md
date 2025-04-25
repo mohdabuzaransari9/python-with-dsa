@@ -3,6 +3,11 @@ learning python with dsa
 ## upgrading pip
 **Note:** run this command in cmd<br>
 python.exe -m pip install --upgrade pip
+
+## reset global python
+**Note:** run this command in Windows (PowerShell):<br>
+pip freeze | %{$_.split('==')[0]} | %{pip uninstall $_ -y}
+
 # anaconda
 ## create new venv
 conda create -p venv "python==3.10.12" -y
