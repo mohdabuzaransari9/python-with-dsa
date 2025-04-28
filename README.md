@@ -6,7 +6,7 @@ python.exe -m pip install --upgrade pip
 
 ## reset global python
 **Note:** run this command in Windows (PowerShell):<br>
-pip freeze | %{$_.split('==')[0]} | %{pip uninstall $_ -y}
+pip freeze | % { $_.split('==')[0] } | % { pip uninstall $_ -y }
 
 # anaconda
 ## create new venv
