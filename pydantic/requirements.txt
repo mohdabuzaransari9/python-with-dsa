@@ -1,0 +1,3 @@
+# pydantic requires 3.9+ here we use python 3.10.0
+ipykernel
+pydantic==2.11.9
